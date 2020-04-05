@@ -24,7 +24,7 @@
      primary key (prof_id)
    );
    
-# You change localhost with an IP address 
+# You can change localhost with an IP address 
 # You must add Mysql JDBC Driver
      
      
