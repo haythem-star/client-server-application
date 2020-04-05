@@ -18,6 +18,7 @@ public class Server_Main {
             PrintWriter out =new PrintWriter(client.getOutputStream(),true);
             System.out.println("connection established");
             BufferedReader clientinput =new BufferedReader(new InputStreamReader(client.getInputStream()));
+            Class.forName("com.microsoft.sqlserver.jdbc. SQLServerDriver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_info?useTimezone=true&serverTimezone=UTC", "root", "");
             statement = conn.createStatement();
             String ordre=clientinput.readLine();
