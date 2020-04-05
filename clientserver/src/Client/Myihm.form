@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client.Myihm">
+  <grid id="27dc6" binding="rootpannel" layout-manager="GridLayoutManager" row-count="10" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="571" height="447"/>
+    </constraints>
+    <properties>
+      <background color="-8525343"/>
+      <foreground color="-3855584"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ed39f" class="javax.swing.JTextField" binding="insatStudent">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5129285"/>
+          <font name="Matura MT Script Capitals" size="48" style="2"/>
+          <foreground color="-3855584"/>
+          <text value="          insat student"/>
+        </properties>
+      </component>
+      <vspacer id="7d0c6">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="27afe" class="javax.swing.JLabel" binding="label1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="3"/>
+          <foreground color="-12505284"/>
+          <text value="                         this application was created to"/>
+        </properties>
+      </component>
+      <component id="4a0f8" class="javax.swing.JLabel" binding="label2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="3"/>
+          <foreground color="-12505284"/>
+          <text value="                     manipulate Insat student information"/>
+        </properties>
+      </component>
+      <component id="12286" class="javax.swing.JLabel" binding="label3">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="3"/>
+          <foreground color="-12505284"/>
+          <text value="        you can search for any student by entering id"/>
+        </properties>
+      </component>
+      <component id="ee3de" class="javax.swing.JLabel" binding="label4">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="3"/>
+          <foreground color="-12505284"/>
+          <text value="      also if you are a teacher, you can add your students"/>
+        </properties>
+      </component>
+      <component id="31e3b" class="javax.swing.JLabel" binding="label5">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="3"/>
+          <foreground color="-12505284"/>
+          <text value="                                       by tapping &quot;add&quot;"/>
+        </properties>
+      </component>
+      <component id="7d787" class="javax.swing.JButton" binding="addButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bauhaus 93" size="24" style="1"/>
+          <text value="add"/>
+        </properties>
+      </component>
+      <component id="b8d04" class="javax.swing.JLabel" binding="label6">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Algerian" size="22" style="1"/>
+          <foreground color="-15853893"/>
+          <text value="Student ID/Teacher ID :"/>
+        </properties>
+      </component>
+      <component id="39c7d" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1708825"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="577a0" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bernard MT Condensed" size="22" style="0"/>
+          <text value="search"/>
+        </properties>
+      </component>
+      <component id="34aa8" class="javax.swing.JLabel" binding="labelerror1">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Narrow" size="14" style="3"/>
+          <foreground color="-3855584"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
