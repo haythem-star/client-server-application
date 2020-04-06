@@ -18,7 +18,6 @@ public class Server_Main {
             PrintWriter out =new PrintWriter(client.getOutputStream(),true);
             System.out.println("connection established");
             BufferedReader clientinput =new BufferedReader(new InputStreamReader(client.getInputStream()));
-            Class.forName("com.microsoft.sqlserver.jdbc. SQLServerDriver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_info?useTimezone=true&serverTimezone=UTC", "root", "");
             statement = conn.createStatement();
             String ordre=clientinput.readLine();
@@ -109,19 +108,15 @@ public class Server_Main {
     public static void update(String text,Statement st,PrintWriter out)
     {
         try {
-            int res=0;
-            res = st.executeUpdate(text);
-            if(res>0)
-            {
+        
+            st.executeUpdate(text);
+            
                 out.println("yes");
-            }
-            else
-            {
-                out.println("non");
-            }
+            
         }catch (Exception ex)
         {
             System.out.println("Exception detected "+ex);
+            out.println("non");
         }
 
 

@@ -41,7 +41,7 @@ public class Ecouteur implements ActionListener {
 
 
                     ihm.textField1.setBackground(Color.red);
-                    ihm.labelerror1.setText("on n'a pas trouvé un etudient avec cette id");
+                    ihm.labelerror1.setText("we did not find a student with this id");
                 }
 
                 ihm.textField1.setText("");
